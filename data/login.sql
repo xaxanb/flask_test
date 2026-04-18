@@ -1,6 +1,6 @@
-create database login;
+create database if not exists login;
 
-cd login;
+use login;
 
 create table user_login(
     id int(11) not null auto_increment primary key,
